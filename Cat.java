@@ -4,4 +4,9 @@ public class Cat implements Animal {
     {
         return "meow";
     }
+
+    @Override
+    public boolean CanSwim() {
+        return false;
+    }
 }
